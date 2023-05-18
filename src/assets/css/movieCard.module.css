@@ -1,0 +1,14 @@
+.movieTitulo {
+    font-size: 2rem;
+    color: #666;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+.movieOverview {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #666;
+    margin: 0;
+}
