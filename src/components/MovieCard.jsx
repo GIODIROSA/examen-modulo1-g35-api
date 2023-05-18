@@ -6,10 +6,10 @@ const MovieCard = ({ movies }) => {
   const imageUrl = "https://image.tmdb.org/t/p/w300" + poster_path;
   return (
     <>
-      <img src={imageUrl} alt={title} />
-      <p>{id}</p>
-      <p className={style.movieTitulo}>{title}</p>
-      <p className={style.movieOverview}>{overview}</p>
+      <div className={style.movieCard}>
+        <img src={imageUrl} width={230} height={345} alt={title} />
+        <p className={style.movieTitulo}>{title}</p>
+      </div>
     </>
   );
 };
